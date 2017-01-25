@@ -1,0 +1,10 @@
+git log
+git clone
+git diff
+git add
+git status
+git init
+git commit -m "Commit message" or git commit
+export PS1="$purple\u$green\$(__git_ps1)$blue \W $ $reset"
+git config --global core.editor "'E:/NotePad++/notepad++.exe' -n -w"
+npp .bash_profile
