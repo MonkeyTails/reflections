@@ -1,6 +1,7 @@
 git log
 git clone
 git diff
+git checkout
 git add
 git status
 git init
@@ -8,3 +9,8 @@ git commit -m "Commit message" or git commit
 export PS1="$purple\u$green\$(__git_ps1)$blue \W $ $reset"
 git config --global core.editor "'E:/NotePad++/notepad++.exe' -n -w"
 npp .bash_profile
+git diff --staged
+git reset --hard
+git branch **Some arg**
+git log --graph --oneline **compare these commit logs** **with these**
+git checkout -b new_branch_name is the same as git branch new_branch_name then git checkout new_branch_name

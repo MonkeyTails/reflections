@@ -1,2 +1,17 @@
 What happens when you initialize a repository? Why do you need to do it?
 Initializing a repository is preparing it to use commits in git. You need to do this before working with commits.
+
+How can you use the staging area to make sure you have one commit per logical change?
+One can compare the difference between working directory, staging area, and repository to make sure each commit involves one logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When testing out a new feature, one can keep the new feature and the original feature seperate.
+
+How do the diagrams help you visualize the branch structure?
+It helps one understand where they are in the branch relative to everything else.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+It merges all the changes from each branch into one file. We represent it in this way to visualize what's going on more easily.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+It's nice to have git automatically merge files, but sometimes merging manually is necessary to prevent unintended additions or deletions.
